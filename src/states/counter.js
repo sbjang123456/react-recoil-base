@@ -9,6 +9,6 @@ export const counterLabelSelector = selector({
     key: 'counterLabelSelector',
     get: ({ get }) => {
         const counter = get(counterState);
-        return `현재 카우터는 ${counter} 입니다.`;
+        return `현재 카운터는 ${counter} 입니다.`;
     }
 });
